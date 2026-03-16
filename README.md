@@ -35,7 +35,7 @@ Prerequisites
 ### <b>Building the Project:
 1. Clone the repository:
 ```cpp
-git clone https://github.com/jarek1992/cargo_shipment.git</code>
+git clone https://github.com/jarek1992/cargo_shipment.git
 ```
 2. Navigate to the project directory:
 ```cpp
