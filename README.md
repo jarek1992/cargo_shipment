@@ -1,38 +1,39 @@
-### --🛳CARGO SHIPMENT MANAGEMENT SYSTEM--
+## -- 🛳CARGO SHIPMENT MANAGEMENT SYSTEM --
 
-Overview:
-Cargo Shipment is a C++ project designed to simulate playful ship cargo management. The program models various types of cargo, including fruits, alcohol, dry goods, weapons, and valuable items, each with unique properties such as price, quantity, and specific characteristics. Users can load cargo onto ships, transfer cargo between ships, unload cargo, and even simulate events such as fruit expiration. The program also models ships, keeping track of their cargo, crew members, and other relevant statistics.
+### 📚OVERVIEW
+*Cargo Shipment is a C++ mini-game project designed to simulate playful ship cargo management. The program models various types of cargo, including fruits, alcohol, dry goods, weapons, and valuable items, each with unique properties such as price, quantity, and specific characteristics. Users can load cargo onto ships, transfer cargo between ships, unload cargo, and even simulate events such as fruit expiration. The program also models ships, keeping track of their cargo, crew members, and other relevant statistics.*
 
-### <b>Features:</b>
-- Ship Management: Create and manage ships with various capacities and crew sizes.
-- Cargo Types: Manage multiple types of cargo such as fruits, dry fruits, alcohol, weapons, and more.
-- Loading/Unloading: Load cargo onto ships, unload cargo from ships, and transfer cargo between ships.
-- Expiration Simulation: Simulate the expiration process of perishable goods like fruits over time.
-- Dry Fruit Special Mechanism: Dry fruits maintain value over time and deteriorate slower than regular fruits.
-- Crew Management: Add or remove crew members from ships.
-- Price and Value Management: Cargo items have different pricing and rarity levels, influencing their overall value.
+### 🎨FEATURES
+- **Ship Management:** Create and manage ships with various capacities and crew sizes.
+- **Cargo Types:** Manage multiple types of cargo such as fruits, dry fruits, alcohol, weapons, and more.
+- **Loading/Unloading:** Load cargo onto ships, unload cargo from ships, and transfer cargo between ships.
+- **Expiration Simulation:** Simulate the expiration process of perishable goods like fruits over time.
+- **Dry Fruit Special Mechanism:** Dry fruits maintain value over time and deteriorate slower than regular fruits.
+- **Crew Management:** Add or remove crew members from ships.
+- **Price and Value Management:** Cargo items have different pricing and rarity levels, influencing their overall value.
 
-### <b>Usage:</b>
-The program allows the user to:
-1. Create ships with specific capacities and crew members.
-2. Load various types of cargo onto ships.
-3. Transfer cargo between different ships.
-4. Unload cargo from ships.
-5. Simulate perishable goods expiring over time.
+### 👤USAGE
+  The program allows the user to:
+  1. Create ships with specific capacities and crew members.
+  2. Load various types of cargo onto ships.
+  3. Transfer cargo between different ships.
+  4. Unload cargo from ships.
+  5. Simulate perishable goods expiring over time.
 
-### <b>The cargo includes several different classes:</b>
-- 🍓Fruit: Expires over a specific period.
-- 🍇Dry Fruit: A subclass of Fruit with a special expiration system.
-- 🍷Alcohol: Cargo with specific alcoholic content.
-- 💎Item: Valuables with different rarity levels.
-- ⚔️Weapon: Cargo with specified damage and rarity.
+#### **The cargo includes several different classes:**
+- 🍓**Fruit:** Expires over a specific period.
+- 🍇**Dry Fruit:** A subclass of Fruit with a special expiration system.
+- 🍷**Alcohol:** Cargo with specific alcoholic content.
+- 💎**Item:** Valuables with different rarity levels.
+- ⚔️**Weapon:** Cargo with specified damage and rarity.
 
-### <b>How to Build:</b>
-Prerequisites
+### ⚙️HOW TO BUILD:
+The project has been created and run on Windows. To run this project, you need to have a C++ compiler installed on your system.
+
+**Prerequisites:**
 - C++17 compiler 
 - CMake version 3.11 or higher <a href="https://cmake.org/download/" target="_blank" rel="noopener noreferrer">CMake 3.11+</a>
 
-### <b>Building the Project:
 1. Clone the repository:
 ```cpp
 git clone https://github.com/jarek1992/cargo_shipment.git
@@ -51,8 +52,8 @@ cmake -build build --confin Release
 ```
 5. Run the program:
 ```cpp
-./build/Release/cargo_management
+.\build\Release\cargo_management.exe
 ```
 
-### Future Roadmap
+### 🔮Future Roadmap
 - [ ] Integrating with QT
