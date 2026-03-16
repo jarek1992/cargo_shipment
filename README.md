@@ -43,17 +43,15 @@ cd cargo_shipment
 ```
 3. Create a build directory and run CMake:
 ```cpp
-mkdir build
-cd build
-cmake ..
+cmake -B build .
 ```
 4. Compile the project: 
 ```cpp
-make
+cmake -build build --confin Release
 ```
 5. Run the program:
 ```cpp
-./cargo_management
+./build/Release/cargo_management
 ```
 
 ### Future Roadmap
